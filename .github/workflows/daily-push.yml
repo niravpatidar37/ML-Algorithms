@@ -1,0 +1,33 @@
+name: Daily Auto Push
+
+on:
+  schedule:
+    - cron: '0 9 * * *'   # Runs every day at 9:00 AM UTC
+  workflow_dispatch:        # Allows manual trigger too
+
+jobs:
+  auto-commit:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v3
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.10'
+
+      - name: Generate daily notebook update
+        run: |
+          python generate_daily_note.py
+
+      - name: Commit and push changes
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add .
+          git commit -m "Daily update: $(date +'%Y-%m-%d') - Auto-generated notebook"
+          git push
