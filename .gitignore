@@ -3,3 +3,10 @@ __pycache__/
 .ipynb_checkpoints/
 .verify_nb.py
 .venv/
+
+# Large / downloaded datasets (keep small, redistributable files only)
+data/*.parquet
+data/*.h5
+data/*.zip
+data/*.tar.gz
+data/*.feather
