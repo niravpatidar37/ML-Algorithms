@@ -1,28 +1,25 @@
 # ML-Algorithms
 
 An in-depth, hands-on course covering 18 core machine-learning algorithms — one notebook
-per topic. Each notebook explains the **concept and intuition**, works through the
-**mathematics**, and applies the algorithm **end-to-end on a real dataset** with a fully
-worked example, evaluation, and a from-scratch implementation where it helps understanding.
+per topic, organised into a folder per topic. Each notebook explains the **concept and
+intuition**, works through the **mathematics**, and applies the algorithm **end-to-end on a
+real dataset** with a fully worked example, evaluation, and a from-scratch implementation
+where it helps understanding.
 
 ## Curriculum
 
 Work through the topics in order — each builds on the previous ones.
 
-### Supervised Learning — Regression
+### Supervised Learning
 | # | Topic | Notebook | Status |
 |---|-------|----------|--------|
-| 1 | Linear Regression | [01_linear_regression.ipynb](notebooks/01_linear_regression.ipynb) | ✅ Done |
-| 2 | Ridge & Lasso (Regularization) | _coming soon_ | ⬜ |
-
-### Supervised Learning — Classification
-| # | Topic | Notebook | Status |
-|---|-------|----------|--------|
+| 1 | Linear Regression | [01_linear_regression.ipynb](1-Linear%20Regression/01_linear_regression.ipynb) | ✅ Done |
+| 2 | Ridge, Lasso & ElasticNet | _coming soon_ | ⬜ |
 | 3 | Logistic Regression | _coming soon_ | ⬜ |
-| 4 | K-Nearest Neighbors (KNN) | _coming soon_ | ⬜ |
+| 4 | Support Vector Machines (SVM) | _coming soon_ | ⬜ |
 | 5 | Naive Bayes | _coming soon_ | ⬜ |
-| 6 | Support Vector Machines (SVM) | _coming soon_ | ⬜ |
-| 7 | Decision Trees | _coming soon_ | ⬜ |
+| 6 | K-Nearest Neighbor (KNN) | _coming soon_ | ⬜ |
+| 7 | Decision Tree | _coming soon_ | ⬜ |
 
 ### Ensemble Methods
 | # | Topic | Notebook | Status |
@@ -32,20 +29,16 @@ Work through the topics in order — each builds on the previous ones.
 | 10 | Gradient Boosting | _coming soon_ | ⬜ |
 | 11 | XGBoost | _coming soon_ | ⬜ |
 
-### Unsupervised Learning — Clustering
+### Unsupervised Learning
 | # | Topic | Notebook | Status |
 |---|-------|----------|--------|
-| 12 | K-Means Clustering | _coming soon_ | ⬜ |
-| 13 | Hierarchical Clustering | _coming soon_ | ⬜ |
-| 14 | DBSCAN | _coming soon_ | ⬜ |
-
-### Dimensionality Reduction & Pattern Mining
-| # | Topic | Notebook | Status |
-|---|-------|----------|--------|
-| 15 | Principal Component Analysis (PCA) | _coming soon_ | ⬜ |
-| 16 | t-SNE / UMAP (Visualization) | _coming soon_ | ⬜ |
-| 17 | Anomaly Detection (Isolation Forest) | _coming soon_ | ⬜ |
-| 18 | Association Rule Mining (Apriori) | _coming soon_ | ⬜ |
+| 12 | Unsupervised ML (overview) | _coming soon_ | ⬜ |
+| 13 | Principal Component Analysis (PCA) | _coming soon_ | ⬜ |
+| 14 | K-Means Clustering | _coming soon_ | ⬜ |
+| 15 | Hierarchical Clustering | _coming soon_ | ⬜ |
+| 16 | DBSCAN Clustering | _coming soon_ | ⬜ |
+| 17 | Silhouette Analysis | _coming soon_ | ⬜ |
+| 18 | Anomaly Detection | _coming soon_ | ⬜ |
 
 ## Each notebook follows the same structure
 
@@ -77,8 +70,12 @@ datasets where they make a more compelling example.
 
 ```
 ML-Algorithms/
-├── notebooks/                  # One notebook per topic (01 … 18)
+├── 1-Linear Regression/
 │   └── 01_linear_regression.ipynb
+├── 2-Ridge Lasso Elasticnet/
+├── 3-Logistic Regression/
+├── ...                          # one folder per topic, 1 … 18
+├── 18-Anomaly Detection/
 ├── requirements.txt
 └── README.md
 ```
