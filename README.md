@@ -1,10 +1,31 @@
 # ML-Algorithms
 
-An in-depth, hands-on course covering 18 core machine-learning algorithms — one notebook
-per topic, organised into a folder per topic. Each notebook explains the **concept and
-intuition**, works through the **mathematics**, and applies the algorithm **end-to-end on a
-real dataset** with a fully worked example, evaluation, and a from-scratch implementation
-where it helps understanding.
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+[![Python 3.9+](https://img.shields.io/badge/Python-3.9%2B-blue.svg)](https://www.python.org/)
+[![Notebooks](https://img.shields.io/badge/notebooks-18-orange.svg)](#curriculum)
+[![scikit-learn](https://img.shields.io/badge/scikit--learn-1.6-F7931E.svg?logo=scikit-learn&logoColor=white)](https://scikit-learn.org/)
+[![PRs welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
+[![Stars](https://img.shields.io/github/stars/niravpatidar37/ML-Algorithms?style=social)](https://github.com/niravpatidar37/ML-Algorithms/stargazers)
+
+> **18 core machine-learning algorithms — explained, derived, and built from scratch.**
+> One notebook per topic: the intuition, the maths, and a fully worked example on a real
+> dataset, side-by-side with the scikit-learn version. **Run any of them in your browser
+> with one click — zero setup.**
+
+![Gallery of plots produced across the notebooks](assets/banner.png)
+
+## Why this repo?
+
+- 🧠 **Theory *and* practice** — every algorithm covers the intuition, the underlying
+  mathematics (cost functions, optimisation, key formulas), *and* a real worked example.
+- 🛠️ **From scratch + scikit-learn** — see the algorithm implemented from first principles,
+  then how you'd actually use it in practice.
+- 📊 **Real datasets & proper evaluation** — the right metrics and plots for each problem,
+  not just `.fit()` / `.score()`.
+- ▶️ **Zero setup** — one-click **Open in Colab** on every notebook, or `pip install -r
+  requirements.txt` to run locally.
+- 🎯 **Great for** self-taught learners, students, and interview prep — a single, consistent
+  path from linear regression to anomaly detection.
 
 ## Curriculum
 
@@ -78,11 +99,29 @@ ML-Algorithms/
 ├── ...                          # one folder per topic, 01 … 18
 ├── 18-anomaly-detection/
 ├── data/                        # local datasets (most come from sklearn/seaborn)
-├── assets/                      # shared images / exported plots
+├── assets/                      # shared images + generate_gallery.py (README banner)
 ├── requirements.txt
+├── CONTRIBUTING.md
 ├── LICENSE
 └── README.md
 ```
+
+## Roadmap
+
+Done: all 18 classical algorithms above. Planned / ideas (contributions welcome — see below):
+
+- [ ] Time-series forecasting (ARIMA, Prophet)
+- [ ] Neural networks from scratch (MLP, backprop)
+- [ ] Model selection & cross-validation deep-dive
+- [ ] Feature engineering & pipelines
+- [ ] A shared "datasets" cheatsheet
+
+⭐ **Star the repo to follow along** as new topics land.
+
+## Contributing
+
+Found a typo, a clearer explanation, or want to add a topic from the roadmap? PRs and
+issues are very welcome — see [CONTRIBUTING.md](CONTRIBUTING.md).
 
 ## License
 
