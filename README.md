@@ -24,7 +24,7 @@ Work through the topics in order — each builds on the previous ones.
 ### Ensemble Methods
 | # | Topic | Notebook | Status |
 |---|-------|----------|--------|
-| 8 | Random Forest | _coming soon_ | ⬜ |
+| 8 | Random Forest | [08_random_forest.ipynb](8-Random%20Forest/08_random_forest.ipynb) | ✅ Done |
 | 9 | AdaBoost | _coming soon_ | ⬜ |
 | 10 | Gradient Boosting | _coming soon_ | ⬜ |
 | 11 | XGBoost | _coming soon_ | ⬜ |
