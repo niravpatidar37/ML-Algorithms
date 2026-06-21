@@ -35,7 +35,7 @@ Work through the topics in order — each builds on the previous ones.
 | 12 | Unsupervised ML (overview) | [12_unsupervised_overview.ipynb](12-Unsupervised%20ML/12_unsupervised_overview.ipynb) | ✅ Done |
 | 13 | Principal Component Analysis (PCA) | [13_pca.ipynb](13-PCA/13_pca.ipynb) | ✅ Done |
 | 14 | K-Means Clustering | [14_kmeans.ipynb](14-K%20Means%20Clustering/14_kmeans.ipynb) | ✅ Done |
-| 15 | Hierarchical Clustering | _coming soon_ | ⬜ |
+| 15 | Hierarchical Clustering | [15_hierarchical_clustering.ipynb](15-Hierarchical%20Clustering/15_hierarchical_clustering.ipynb) | ✅ Done |
 | 16 | DBSCAN Clustering | _coming soon_ | ⬜ |
 | 17 | Silhouette Analysis | _coming soon_ | ⬜ |
 | 18 | Anomaly Detection | _coming soon_ | ⬜ |
