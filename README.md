@@ -18,7 +18,7 @@ Work through the topics in order — each builds on the previous ones.
 | 3 | Logistic Regression | [03_logistic_regression.ipynb](3-Logistic%20Regression/03_logistic_regression.ipynb) | ✅ Done |
 | 4 | Support Vector Machines (SVM) | [04_svm.ipynb](4-SVM/04_svm.ipynb) | ✅ Done |
 | 5 | Naive Bayes | [05_naive_bayes.ipynb](5-Naive%20Bayes/05_naive_bayes.ipynb) | ✅ Done |
-| 6 | K-Nearest Neighbor (KNN) | _coming soon_ | ⬜ |
+| 6 | K-Nearest Neighbor (KNN) | [06_knn.ipynb](6-K%20Nearest%20Neighbor/06_knn.ipynb) | ✅ Done |
 | 7 | Decision Tree | _coming soon_ | ⬜ |
 
 ### Ensemble Methods
