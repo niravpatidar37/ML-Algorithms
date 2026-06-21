@@ -37,7 +37,7 @@ Work through the topics in order — each builds on the previous ones.
 | 14 | K-Means Clustering | [14_kmeans.ipynb](14-K%20Means%20Clustering/14_kmeans.ipynb) | ✅ Done |
 | 15 | Hierarchical Clustering | [15_hierarchical_clustering.ipynb](15-Hierarchical%20Clustering/15_hierarchical_clustering.ipynb) | ✅ Done |
 | 16 | DBSCAN Clustering | [16_dbscan.ipynb](16-DBSCAN%20Clustering/16_dbscan.ipynb) | ✅ Done |
-| 17 | Silhouette Analysis | _coming soon_ | ⬜ |
+| 17 | Silhouette Analysis | [17_silhouette_analysis.ipynb](17-Silhouette%20Clustering/17_silhouette_analysis.ipynb) | ✅ Done |
 | 18 | Anomaly Detection | _coming soon_ | ⬜ |
 
 ## Each notebook follows the same structure
