@@ -32,7 +32,7 @@ Work through the topics in order — each builds on the previous ones.
 ### Unsupervised Learning
 | # | Topic | Notebook | Status |
 |---|-------|----------|--------|
-| 12 | Unsupervised ML (overview) | _coming soon_ | ⬜ |
+| 12 | Unsupervised ML (overview) | [12_unsupervised_overview.ipynb](12-Unsupervised%20ML/12_unsupervised_overview.ipynb) | ✅ Done |
 | 13 | Principal Component Analysis (PCA) | _coming soon_ | ⬜ |
 | 14 | K-Means Clustering | _coming soon_ | ⬜ |
 | 15 | Hierarchical Clustering | _coming soon_ | ⬜ |
