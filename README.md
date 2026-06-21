@@ -14,7 +14,7 @@ Work through the topics in order — each builds on the previous ones.
 | # | Topic | Notebook | Status |
 |---|-------|----------|--------|
 | 1 | Linear Regression | [01_linear_regression.ipynb](1-Linear%20Regression/01_linear_regression.ipynb) | ✅ Done |
-| 2 | Ridge, Lasso & ElasticNet | _coming soon_ | ⬜ |
+| 2 | Ridge, Lasso & ElasticNet | [02_ridge_lasso_elasticnet.ipynb](2-Ridge%20Lasso%20Elasticnet/02_ridge_lasso_elasticnet.ipynb) | ✅ Done |
 | 3 | Logistic Regression | _coming soon_ | ⬜ |
 | 4 | Support Vector Machines (SVM) | _coming soon_ | ⬜ |
 | 5 | Naive Bayes | _coming soon_ | ⬜ |
