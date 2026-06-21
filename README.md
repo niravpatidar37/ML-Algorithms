@@ -16,7 +16,7 @@ Work through the topics in order — each builds on the previous ones.
 | 1 | Linear Regression | [01_linear_regression.ipynb](1-Linear%20Regression/01_linear_regression.ipynb) | ✅ Done |
 | 2 | Ridge, Lasso & ElasticNet | [02_ridge_lasso_elasticnet.ipynb](2-Ridge%20Lasso%20Elasticnet/02_ridge_lasso_elasticnet.ipynb) | ✅ Done |
 | 3 | Logistic Regression | [03_logistic_regression.ipynb](3-Logistic%20Regression/03_logistic_regression.ipynb) | ✅ Done |
-| 4 | Support Vector Machines (SVM) | _coming soon_ | ⬜ |
+| 4 | Support Vector Machines (SVM) | [04_svm.ipynb](4-SVM/04_svm.ipynb) | ✅ Done |
 | 5 | Naive Bayes | _coming soon_ | ⬜ |
 | 6 | K-Nearest Neighbor (KNN) | _coming soon_ | ⬜ |
 | 7 | Decision Tree | _coming soon_ | ⬜ |
