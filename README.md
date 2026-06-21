@@ -27,7 +27,7 @@ Work through the topics in order — each builds on the previous ones.
 | 8 | Random Forest | [08_random_forest.ipynb](8-Random%20Forest/08_random_forest.ipynb) | ✅ Done |
 | 9 | AdaBoost | [09_adaboost.ipynb](9-Adaboost/09_adaboost.ipynb) | ✅ Done |
 | 10 | Gradient Boosting | [10_gradient_boosting.ipynb](10-Gradient%20Boosting/10_gradient_boosting.ipynb) | ✅ Done |
-| 11 | XGBoost | _coming soon_ | ⬜ |
+| 11 | XGBoost | [11_xgboost.ipynb](11-XGBoost/11_xgboost.ipynb) | ✅ Done |
 
 ### Unsupervised Learning
 | # | Topic | Notebook | Status |
